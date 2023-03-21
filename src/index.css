@@ -1,0 +1,66 @@
+/* General */
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* App */
+@media (min-width: 768px) {
+  .budget-container {
+    width: 40rem;
+    margin: 0 auto;
+  }
+}
+
+.floating-button {
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+}
+
+@media (min-width: 769px) {
+  .expense-container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    gap: 1rem;
+  }
+}
+
+.expense-container img {
+  width: 10rem;
+}
+
+/** SWIPE LIST OVERRIDES **/
+
+.swipe-action__leading {
+  background-color: blue;
+  color: white;
+}
+
+.swipe-action__trailing {
+  background-color: #db2777;
+  color: white;
+}
+
+.swipeable-list .swipe-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.4rem;
+  text-align: right;
+}
+
+/* CircularProgressbar */
+
+.CircularProgressbar {
+  width: 15rem;
+}
+
+.CircularProgressbar .CircularProgressbar-text {
+  font-size: 1rem !important;
+}
