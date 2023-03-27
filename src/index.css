@@ -9,6 +9,10 @@ html {
   box-sizing: inherit;
 }
 
+body{
+  font-size: 2rem;
+}
+
 /* App */
 @media (min-width: 768px) {
   .budget-container {

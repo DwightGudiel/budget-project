@@ -75,19 +75,19 @@ function Expense({
           </div>
           <div className=" text-center text-md-start text-secondary ">
             <p className="fw-bold fs-2 text-capitalize">{categories}</p>
-            <p className="fw-bold fs-5">
+            <p className="fw-bold fs-4">
               Descripcion del Gasto:{" "}
               <span className="fw-normal text-capitalize">
                 {descriptionExpense}
               </span>
             </p>
-            <p className="fw-bold fs-5">
+            <p className="fw-bold fs-4">
               Cantidad:{" "}
               <span className="fw-normal">
                 {formatQuantity(Number(quantity))}
               </span>
             </p>
-            <p className="fw-bold text-md-end me-md-4 fs-5">
+            <p className="fw-bold text-md-end me-md-4 fs-4">
               Añadido el {formatDate(date)}
             </p>
           </div>

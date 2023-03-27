@@ -14,7 +14,7 @@ function ListExpenses({
       {/*Si Filtro tiene algo significa que estamos listando a través del filtro de lo contrario estamos listando todos los gastos. */}
       {filter ? (
         <>
-          <h3 className="text-center text-primary fs-3 fw-bold mb-5">
+          <h3 className="text-center text-primary fs-2 fw-bold mb-5">
             {filteredExpensesArray.length > 0
               ? "Listado de Gastos"
               : "No Hay Gastos En Esta Categoría"}

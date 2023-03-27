@@ -49,12 +49,12 @@ function ExpensePanel({
 
   return (
     <Container className="mt-5 p-3 shadow rounded">
-      <h2 className="text-center fs-3 py-3 fw-bold border-bottom">
+      <h2 className="text-center fs-2 py-3 fw-bold border-bottom">
         Resumen de su Presupuesto
       </h2>
 
       <div className="d-flex justify-content-end me-5 my-5 my-md-0">
-        <Button onClick={handleResetApp} variant="danger fs-3">
+        <Button onClick={handleResetApp} variant="danger fs-4">
           Reiniciar Aplicación
         </Button>
       </div>

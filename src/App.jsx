@@ -131,7 +131,7 @@ function App() {
           />
           <Button
             onClick={handleShow}
-            className="floating-button fs-5"
+            className="floating-button fs-4"
             variant="primary"
           >
             Añadir Nuevo Gasto
