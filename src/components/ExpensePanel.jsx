@@ -55,7 +55,7 @@ function ExpensePanel({
 
       <div className="d-flex justify-content-end me-5 my-5 my-md-0">
         <Button onClick={handleResetApp} variant="danger fs-4">
-          Reiniciar Aplicación
+          Reiniciar Aplicación <i className="bi bi-arrow-counterclockwise"></i>
         </Button>
       </div>
       <Row className="justify-content-center align-items-center">

@@ -75,13 +75,13 @@ function Expense({
           </div>
           <div className=" text-center text-md-start text-secondary ">
             <p className="fw-bold fs-2 text-capitalize">{categories}</p>
-            <p className="fw-bold fs-4">
+            <p className="fw-bold fs-3">
               Descripcion del Gasto:{" "}
               <span className="fw-normal text-capitalize">
                 {descriptionExpense}
               </span>
             </p>
-            <p className="fw-bold fs-4">
+            <p className="fw-bold fs-3">
               Cantidad:{" "}
               <span className="fw-normal">
                 {formatQuantity(Number(quantity))}

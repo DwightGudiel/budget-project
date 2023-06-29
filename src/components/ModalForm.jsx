@@ -73,18 +73,18 @@ function ModalForm({
           <Modal.Title>Formulario</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Form onSubmit={handleNewExpense}>
-            <legend className="text-center text-primary fw-bold fs-4 py-3">
+          <Form onSubmit={handleNewExpense} className="p-3">
+            <legend className="text-center text-primary fw-bold fs-3 py-3">
               {updatedExpenseObj.id
                 ? "Actualiza El Gasto"
                 : "Añade Un Nuevo Gasto"}
             </legend>
             <Form.Group className="mb-3">
-              <Form.Label className="fw-bold fs-5">
+              <Form.Label className="fw-bold fs-4">
                 Descripción del Gasto
               </Form.Label>
               <Form.Control
-                className="fs-5"
+                className="fs-4"
                 value={descriptionExpense}
                 onChange={(e) => setDescriptionExpense(e.target.value)}
                 type="text"
@@ -92,9 +92,9 @@ function ModalForm({
               />
             </Form.Group>
             <Form.Group className="mb-3">
-              <Form.Label className="fw-bold fs-5">Cantidad</Form.Label>
+              <Form.Label className="fw-bold fs-4">Cantidad</Form.Label>
               <Form.Control
-                className="fs-5"
+                className="fs-4"
                 value={quantity}
                 min="0"
                 onChange={(e) => setQuantity(e.target.value)}
@@ -104,9 +104,9 @@ function ModalForm({
             </Form.Group>
 
             <Form.Group className="mb-3">
-              <Form.Label className="fw-bold fs-5">Categoría</Form.Label>
+              <Form.Label className="fw-bold fs-4">Categoría</Form.Label>
               <Form.Control
-                className="fs-5"
+                className="fs-4"
                 value={categories}
                 onChange={(e) => setCategories(e.target.value)}
                 as="select"
@@ -124,11 +124,11 @@ function ModalForm({
 
             <Button
               variant="primary"
-              className=" my-3 w-100 fs-5"
+              className=" my-3 w-100 fs-4"
               type="submit"
             >
               {" "}
-              Añadir Gasto
+              Añadir Gasto <i class="bi bi-plus-circle"></i>
             </Button>
           </Form>
         </Modal.Body>

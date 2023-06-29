@@ -131,10 +131,10 @@ function App() {
           />
           <Button
             onClick={handleShow}
-            className="floating-button fs-4"
+            className="floating-button fs-3"
             variant="primary"
           >
-            Añadir Nuevo Gasto
+            Nuevo Gasto <i className="bi bi-bag-plus-fill"></i>
           </Button>
         </main>
       )}
